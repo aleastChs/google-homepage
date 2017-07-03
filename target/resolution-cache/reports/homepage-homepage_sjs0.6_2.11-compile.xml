@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="homepage"
+		module="homepage_sjs0.6_2.11"
+		revision="0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20170629124409"/>
+	<dependencies>
+		<module organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11">
+			<revision name="0.9.1" status="release" pubdate="20161029173758" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3018" time="0" location="C:\Users\alexa\.ivy2\cache\be.doeraene\scalajs-jquery_sjs0.6_2.11\ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/be/doeraene/scalajs-jquery_sjs0.6_2.11/0.9.1/scalajs-jquery_sjs0.6_2.11-0.9.1.pom"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalajs-jquery_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="58064" time="0" location="C:\Users\alexa\.ivy2\cache\be.doeraene\scalajs-jquery_sjs0.6_2.11\jars\scalajs-jquery_sjs0.6_2.11-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/be/doeraene/scalajs-jquery_sjs0.6_2.11/0.9.1/scalajs-jquery_sjs0.6_2.11-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="scalatags_sjs0.6_2.11">
+			<revision name="0.6.2" status="release" pubdate="20161022114212" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scalatags" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3734" time="0" location="C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatags_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="1698001" time="0" location="C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.11">
+			<revision name="0.1.3" status="release" pubdate="20161021193118" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3178" time="0" location="C:\Users\alexa\.ivy2\cache\com.lihaoyi\sourcecode_sjs0.6_2.11\ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.6.2"/>
+				<artifacts>
+					<artifact name="sourcecode_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="198953" time="0" location="C:\Users\alexa\.ivy2\cache\com.lihaoyi\sourcecode_sjs0.6_2.11\jars\sourcecode_sjs0.6_2.11-0.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.japgolly.scalacss" name="core_sjs0.6_2.11">
+			<revision name="0.5.1" status="release" pubdate="20161110115305" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/japgolly/scalacss" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache-2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="4294" time="0" location="C:\Users\alexa\.ivy2\cache\com.github.japgolly.scalacss\core_sjs0.6_2.11\ivy-0.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/japgolly/scalacss/core_sjs0.6_2.11/0.5.1/core_sjs0.6_2.11-0.5.1.pom"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="0.5.1" rev-constraint-default="0.5.1" rev-constraint-dynamic="0.5.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="core_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="2509671" time="0" location="C:\Users\alexa\.ivy2\cache\com.github.japgolly.scalacss\core_sjs0.6_2.11\jars\core_sjs0.6_2.11-0.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/japgolly/scalacss/core_sjs0.6_2.11/0.5.1/core_sjs0.6_2.11-0.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11">
+			<revision name="0.9.1" status="release" pubdate="20160612224815" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2838" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.1/scalajs-dom_sjs0.6_2.11-0.9.1.pom"/>
+				<caller organisation="com.github.japgolly.scalacss" name="core_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.5.1"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.1"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.6.2"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="2048170" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.1/scalajs-dom_sjs0.6_2.11-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.japgolly.univeq" name="univeq_sjs0.6_2.11">
+			<revision name="1.0.2" status="release" pubdate="20161109151516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/japgolly/univeq" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3268" time="0" location="C:\Users\alexa\.ivy2\cache\com.github.japgolly.univeq\univeq_sjs0.6_2.11\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/japgolly/univeq/univeq_sjs0.6_2.11/1.0.2/univeq_sjs0.6_2.11-1.0.2.pom"/>
+				<caller organisation="com.github.japgolly.scalacss" name="core_sjs0.6_2.11" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.5.1"/>
+				<artifacts>
+					<artifact name="univeq_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="154936" time="0" location="C:\Users\alexa\.ivy2\cache\com.github.japgolly.univeq\univeq_sjs0.6_2.11\jars\univeq_sjs0.6_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/japgolly/univeq/univeq_sjs0.6_2.11/1.0.2/univeq_sjs0.6_2.11-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.11">
+			<revision name="0.6.13" status="release" pubdate="20161014000416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.13/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3032" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\ivy-0.6.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13.pom"/>
+				<caller organisation="com.github.japgolly.scalacss" name="core_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.5.1"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.1"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.2"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.11" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.1.3"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.9.1"/>
+				<caller organisation="com.github.japgolly.univeq" name="univeq_sjs0.6_2.11" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="no" details="" size="6733435" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.13"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160304162641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="com.github.japgolly.scalacss" name="core_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.5.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4573750" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webjars" name="jquery">
+			<revision name="2.1.4" status="release" pubdate="20150430074105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3791" time="0" location="C:\Users\alexa\.ivy2\cache\org.webjars\jquery\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/2.1.4/jquery-2.1.4.pom"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jquery" type="jar" ext="jar" status="no" details="" size="158370" time="0" location="C:\Users\alexa\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/jquery/2.1.4/jquery-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304162633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.13"/>
+				<caller organisation="com.github.japgolly.scalacss" name="core_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.5.1"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.9.1"/>
+				<caller organisation="homepage" name="homepage_sjs0.6_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1"/>
+				<caller organisation="com.lihaoyi" name="scalatags_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.2"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_sjs0.6_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.3"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.9.1"/>
+				<caller organisation="com.github.japgolly.univeq" name="univeq_sjs0.6_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.2"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.11.8"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
